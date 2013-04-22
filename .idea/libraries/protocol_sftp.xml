@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="protocol-sftp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/plugins/protocol-sftp/jsch-0.1.41.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/protocol-sftp/protocol-sftp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

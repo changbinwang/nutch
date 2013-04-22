@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="urlfilter-automaton1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/urlfilter-automaton/urlfilter-automaton.jar!/" />
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/urlfilter-automaton/automaton.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
