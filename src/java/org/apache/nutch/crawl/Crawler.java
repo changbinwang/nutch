@@ -90,6 +90,7 @@ public class Crawler extends NutchTool implements Tool {
   public Map<String,Object> run(Map<String, Object> args) throws Exception {
     results.clear();
     status.clear();
+    //操，这个crawlId哪里来的啊?
     String crawlId = (String)args.get(Nutch.ARG_CRAWL);
     if (crawlId != null) {
       getConf().set(Nutch.CRAWL_ID_KEY, crawlId);
@@ -236,6 +237,7 @@ public class Crawler extends NutchTool implements Tool {
         i++;
       } else if ("-continue".equals(args[i])) {
         // skip
+        //TODO what continue mean?
       } else if (args[i] != null) {
         seedDir = args[i];
       }
